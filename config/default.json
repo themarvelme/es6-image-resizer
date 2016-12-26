@@ -1,0 +1,8 @@
+{
+    "debug": true,
+    "imageRepo": {
+      "url": "https://proto-plugin.herokuapp.com/images/",
+      "placeholder": "https://proto-plugin.herokuapp.com/images/{{ ID }}/license"
+    },
+    "aws": { }
+}

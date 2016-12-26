@@ -1,0 +1,25 @@
+{
+  "name": "ImageResizer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.7.19",
+    "axios": "^0.15.3",
+    "babel-register": "^6.18.0",
+    "config": "^1.24.0",
+    "request": "^2.79.0",
+    "sharp": "^0.17.0"
+  },
+  "devDependencies": {
+    "babel-preset-env": "^1.1.4",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-stage-0": "^6.16.0"
+  }
+}
