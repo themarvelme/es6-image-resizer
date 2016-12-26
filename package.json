@@ -1,9 +1,11 @@
 {
   "name": "ImageResizer",
   "version": "1.0.0",
-  "description": "",
+  "description": "ImageResizer reads large image files from online repo and upload to Amazon S3 bucket after resize the image.",
   "main": "index.js",
+  "author": "Risto Jovanov <themarvelme@hotmail.com>",
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
