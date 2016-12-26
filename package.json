@@ -3,13 +3,12 @@
   "version": "1.0.0",
   "description": "ImageResizer reads large image files from online repo and upload to Amazon S3 bucket after resize the image.",
   "main": "index.js",
-  "author": "Risto Jovanov <themarvelme@hotmail.com>",
+  "author": "",
   "scripts": {
     "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
   "license": "ISC",
   "dependencies": {
     "aws-sdk": "^2.7.19",
@@ -20,6 +19,7 @@
     "sharp": "^0.17.0"
   },
   "devDependencies": {
+    "babel-cli": "^6.18.0",
     "babel-preset-env": "^1.1.4",
     "babel-preset-es2015": "^6.18.0",
     "babel-preset-stage-0": "^6.16.0"
